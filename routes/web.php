@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controller\ProfesionalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/profesional', [ProfesionalController::class, 'index']);
+Route::get('/profesional/create', [ProfesionalController::class, 'create']);
 
 Auth::routes();
 
