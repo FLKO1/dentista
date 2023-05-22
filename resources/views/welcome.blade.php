@@ -69,9 +69,9 @@
 <!--Acerca de mi -->
     <div class="card" style="width: 18rem;">
   <img src="https://img.freepik.com/vector-premium/mascota-dibujos-animados-rana-vector-divertido-sonrisa-felicidad-diversion-lindo-sientese-gorra-vaquero-verde_471870-342.jpg?w=740"
-   class="card-img-top" alt="imagen de genna">
+   class="card-img-top" alt="imagen de geena">
   <div class="card-body">
-    <h5 class="card-title">Genna Cuevas</h5>
+    <h5 class="card-title">Geena Cuevas</h5>
     <p class="card-text">Estudiante de la Universidad de Antofagasta. Atiendo en la ciudad de Antofagasta, Odontologa
     </p>
     <a href="#" class="btn btn-primary">Conoceme mas...</a>

@@ -14,9 +14,14 @@ use App\Http\Controller\ProfesionalController;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/login', 'Auth\LoginController@login');
+
 
 Route::get('/profesional', [ProfesionalController::class, 'index']);
 Route::get('/profesional/create', [ProfesionalController::class, 'create']);
